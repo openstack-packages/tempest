@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_cfdc5915",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2015-04-13T23:30:07Z",
+      "side": 1,
+      "message": "This was my thinko, it\u0027s NEVRA not ENVR !\nFollowup fix in https://review.gerrithub.io/230136",
+      "revId": "927a4c8899f3dabf96f704faf0f4e86dd3a262b5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
