@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_4f9b4967",
+        "filename": "openstack-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2015-04-13T22:50:17Z",
+      "side": 1,
+      "message": "On Kilo branch i.e. Version: kilo we would, in addition, have:\nProvides: openstack-tempest-master\nObsoletes: openstack-tempest-master \u003c 20150319\n\nNot sure if we care about upgrade path from openstack-tempest-icehouse ?",
+      "revId": "5bf8115057da0bf1c870b851928eb7c03c004303",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
