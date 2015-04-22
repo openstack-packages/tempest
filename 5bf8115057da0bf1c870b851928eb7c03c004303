@@ -34,6 +34,24 @@
       "revId": "5bf8115057da0bf1c870b851928eb7c03c004303",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_53c3d456",
+        "filename": "openstack-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2015-04-22T15:19:37Z",
+      "side": 1,
+      "message": "openstack-tempest-master is a SRPM built by certification team at Red Hat, which we want to have upgrade path from.\n\nFor support reasons, I would avoid multiple packages installed on the system, it would be hard to tell which tempest did actually run. Also latest tempest should support older releases but might drop older features (like it happened with e.g. XML API) so there should be an older version available for users to _downgrade_ to.\n\nAdvanced extreme users could still force multiple openstack-tempest versions installed with yum installonlypkgs option, like kernel but that would be out of supported zone.",
+      "parentUuid": "1a106d94_2fdceee3",
+      "revId": "5bf8115057da0bf1c870b851928eb7c03c004303",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
