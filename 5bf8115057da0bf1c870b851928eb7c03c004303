@@ -16,6 +16,24 @@
       "revId": "5bf8115057da0bf1c870b851928eb7c03c004303",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_2fdceee3",
+        "filename": "openstack-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000776
+      },
+      "writtenOn": "2015-04-22T13:32:20Z",
+      "side": 1,
+      "message": "I don\u0027t quite understand the reference to openstack-tempest-master here. Can you explain that please?\n\nBut one should be able to install both (e.g.) openstack-tempest-juno and openstack-tempest-kilo on the same system. They install to /usr/share/openstack-tempest-(juno|kilo|foo). If you want to use juno, in cwd you just run \u0027/usr/share/openstack-tempest-juno/tools/configure-tempest-directory",
+      "parentUuid": "1a106d94_4f9b4967",
+      "revId": "5bf8115057da0bf1c870b851928eb7c03c004303",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
