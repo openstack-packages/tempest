@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_766b07b7",
+        "filename": "openstack-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2015-05-06T14:59:09Z",
+      "side": 1,
+      "message": "no, it\u0027s pointless, I know other specs have it, I\u0027ll clean them up. Docs have been updated: https://www.rdoproject.org/packaging/rdo-packaging.html#_differences_between_master_and_rawhide_packaging\n\nDelorean replaces the whole lines for Version: Release: and Source0: so you could put anything there, XXX is just a mark that version is unknown at the time of writing spec :)",
+      "parentUuid": "1a106d94_d6059b11",
+      "range": {
+        "startLine": 4,
+        "startChar": 16,
+        "endLine": 4,
+        "endChar": 19
+      },
+      "revId": "9352fbb1a4e6152375dd621fd87a430885e57169",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_e214564e",
         "filename": "openstack-tempest.spec",
         "patchSetId": 1
@@ -36,6 +60,24 @@
       "writtenOn": "2015-05-06T14:52:12Z",
       "side": 1,
       "message": "i think subunit-filters should not be needed (with master) anymore - as this pulls in gtk/mesa/lot of other useless things (for just xml generation)\n\n- it\u0027s optional now ~ run-tests.sh has a flag for using it, default off",
+      "revId": "9352fbb1a4e6152375dd621fd87a430885e57169",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_5666cbed",
+        "filename": "openstack-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2015-05-06T14:59:09Z",
+      "side": 1,
+      "message": "ok, we can drop it in followup, this was sync with current Rawhide.",
+      "parentUuid": "1a106d94_e214564e",
       "revId": "9352fbb1a4e6152375dd621fd87a430885e57169",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
