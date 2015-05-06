@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_d6059b11",
+        "filename": "openstack-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1001189
+      },
+      "writtenOn": "2015-05-06T14:52:12Z",
+      "side": 1,
+      "message": "maybe there still should be %{?dist} ?",
+      "range": {
+        "startLine": 4,
+        "startChar": 16,
+        "endLine": 4,
+        "endChar": 19
+      },
+      "revId": "9352fbb1a4e6152375dd621fd87a430885e57169",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_e214564e",
+        "filename": "openstack-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1001189
+      },
+      "writtenOn": "2015-05-06T14:52:12Z",
+      "side": 1,
+      "message": "i think subunit-filters should not be needed (with master) anymore - as this pulls in gtk/mesa/lot of other useless things (for just xml generation)\n\n- it\u0027s optional now ~ run-tests.sh has a flag for using it, default off",
+      "revId": "9352fbb1a4e6152375dd621fd87a430885e57169",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
