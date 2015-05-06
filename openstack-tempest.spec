@@ -43,7 +43,6 @@ Requires:       python-testscenarios
 Requires:       python-testtools
 Requires:       which
 Requires:       python-tempest-lib >= 0.4.0
-Requires:       subunit-filters
 
 Provides:       openstack-tempest-kilo
 Obsoletes:      openstack-tempest-juno < 20150319
@@ -57,6 +56,10 @@ other specific tests useful in validating an OpenStack deployment.
 
 %prep
 %setup -q -n tempest-%{upstream_version}
+# remove shebangs and fix permissions
+find -type f -a \( -name '*.py' -o -name 'py.*' \) \
+   -exec sed -i '1{/^#!/d}' {} \; \
+   -exec chmod u=rw,go=r {} \;
 
 %install
 mkdir -p %{buildroot}%{_datarootdir}/%{name}-%{version}
