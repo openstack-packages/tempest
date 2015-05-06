@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_59f6fc8f",
+        "filename": "openstack-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2015-05-06T21:56:15Z",
+      "side": 0,
+      "message": "Is it documented somewhere when this might be needed?",
+      "revId": "9352fbb1a4e6152375dd621fd87a430885e57169",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
