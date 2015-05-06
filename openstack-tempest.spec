@@ -61,19 +61,23 @@ find -type f -a \( -name '*.py' -o -name 'py.*' \) \
    -exec sed -i '1{/^#!/d}' {} \; \
    -exec chmod u=rw,go=r {} \;
 
+%build
+# generate html docs
+sphinx-build doc/source html
+# remove the sphinx-build leftovers
+rm -rf html/.{doctrees,buildinfo}
+
 %install
 mkdir -p %{buildroot}%{_datarootdir}/%{name}-%{version}
+rm .gitignore .gitreview .mailmap .coveragerc
 cp --preserve=mode -r . %{buildroot}%{_datarootdir}/%{name}-%{version}
 
-%build
-
 %files
+%doc html
 %license LICENSE
 %defattr(-,root,root)
 %{_datarootdir}/%{name}-%{version}
-%exclude %{_datarootdir}/%{name}-%{version}/.gitignore
-%exclude %{_datarootdir}/%{name}-%{version}/.gitreview
-%exclude %{_datarootdir}/%{name}-%{version}/.mailmap
-%exclude %{_datarootdir}/%{name}-%{version}/.coveragerc
+%exclude %{_datarootdir}/%{name}-%{version}/doc
+%exclude %{_datarootdir}/%{name}-%{version}/html
 
 %changelog
