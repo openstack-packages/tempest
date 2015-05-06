@@ -68,7 +68,7 @@ cp --preserve=mode -r . %{buildroot}%{_datarootdir}/%{name}-%{version}
 %build
 
 %files
-%doc LICENSE
+%license LICENSE
 %defattr(-,root,root)
 %{_datarootdir}/%{name}-%{version}
 %exclude %{_datarootdir}/%{name}-%{version}/.gitignore
