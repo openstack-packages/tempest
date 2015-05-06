@@ -1,6 +1,8 @@
+%{!?upstream_version: %global upstream_version %{version}%{?milestone}}
+
 Name:           openstack-tempest
 Epoch:          1
-Version:        XXX
+Version:        master
 Release:        XXX
 Summary:        OpenStack Integration Test Suite (Tempest)
 License:        ASL 2.0
