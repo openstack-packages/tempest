@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_255af382",
+        "filename": "openstack-tempest.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1000776
+      },
+      "writtenOn": "2015-05-07T19:55:37Z",
+      "side": 1,
+      "message": "This actually breaks the RPM, discovered upon smoketesting. Fix coming.",
+      "revId": "a7ef65ebde97a6824e7d15e78a5287c0abdb9bb6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
