@@ -1,0 +1,7 @@
+Code-Review+2: Steve Linabery <slinaber@redhat.com>
+Verified+1: Steve Linabery <slinaber@redhat.com>
+Submitted-by: Steve Linabery <slinaber@redhat.com>
+Submitted-at: Thu, 14 May 2015 18:53:29 +0200
+Reviewed-on: https://review.gerrithub.io/233298
+Project: openstack-packages/tempest
+Branch: refs/heads/rpm-master
