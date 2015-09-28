@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1ae5cdf2_5d64bc48",
+        "filename": "openstack-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1006219
+      },
+      "writtenOn": "2015-09-28T19:22:38Z",
+      "side": 0,
+      "message": "Is this right ? Should it be openstack-tempest-liberty or something ?",
+      "revId": "e9ae7a2565bf64875225ba6b339530aa317bb941",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
