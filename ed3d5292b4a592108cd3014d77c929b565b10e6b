@@ -1,0 +1,7 @@
+Code-Review+2: Alan Pevec <alan.pevec@redhat.com>
+Verified+1: rdo-ci-jenkins <whayutin+rdocijenkins@redhat.com>
+Submitted-by: Javier Peña <jpena@redhat.com>
+Submitted-at: Tue, 13 Oct 2015 18:33:38 +0200
+Reviewed-on: https://review.gerrithub.io/249613
+Project: openstack-packages/tempest
+Branch: refs/heads/rpm-master
