@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ab29df4_d7b53dce",
+        "filename": "openstack-tempest.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2015-10-24T11:00:50Z",
+      "side": 1,
+      "message": "p-o-config has Epoch: 2 so this must be 2:2.3.0",
+      "range": {
+        "startLine": 39,
+        "startChar": 38,
+        "endLine": 39,
+        "endChar": 43
+      },
+      "revId": "ca9a3e5b66c91b57dd721c65aadc4e04aa86cc81",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ab29df4_f7c9615b",
+        "filename": "openstack-tempest.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2015-10-24T11:00:50Z",
+      "side": 1,
+      "message": "Needs to be synced with latest update in Fedora master:\nhttp://pkgs.fedoraproject.org/cgit/openstack-tempest.git/commit/?id\u003d9f58eff973fb6cc216a5615396c6aae4a28b9061",
+      "range": {
+        "startLine": 72,
+        "startChar": 0,
+        "endLine": 72,
+        "endChar": 17
+      },
+      "revId": "ca9a3e5b66c91b57dd721c65aadc4e04aa86cc81",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
