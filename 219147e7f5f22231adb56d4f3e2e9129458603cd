@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7ac7a964_9de20b9e",
+        "filename": "openstack-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1002601
+      },
+      "writtenOn": "2015-11-13T21:50:32Z",
+      "side": 1,
+      "message": "Not that I mind, but since there are no patches, not required.",
+      "revId": "219147e7f5f22231adb56d4f3e2e9129458603cd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
