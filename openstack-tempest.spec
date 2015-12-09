@@ -15,7 +15,6 @@ BuildRequires:  fdupes
 BuildRequires:  git
 BuildRequires:  python-sphinx
 BuildRequires:  python-d2to1
-BuildRequires:  python-distribute
 BuildRequires:  python-pbr
 BuildRequires:  python2-devel
 
