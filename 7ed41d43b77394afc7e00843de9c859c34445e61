@@ -16,6 +16,24 @@
       "revId": "7ed41d43b77394afc7e00843de9c859c34445e61",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a6ff13c_d8801d8e",
+        "filename": "openstack-tempest.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2016-03-10T21:01:11Z",
+      "side": 1,
+      "message": "No Provides b/c it is not compatible on code level (tempest.lib vs tempest_lib)\n\nAlso not sure about versioned Obsoletes, I know it\u0027s in Fedora guidelines but here we need to kill them all from the system no matter what version.\nLooks like tempest-lib will continue zombie life and might even get new release, although highly unlikely[1]\n\n[1] http://specs.openstack.org/openstack/qa-specs/specs/tempest/implemented/reintegrate-tempest-lib.html",
+      "parentUuid": "3a6ff13c_f8a6b952",
+      "revId": "7ed41d43b77394afc7e00843de9c859c34445e61",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
