@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a6ff13c_f8a6b952",
+        "filename": "openstack-tempest.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1002601
+      },
+      "writtenOn": "2016-03-10T20:52:54Z",
+      "side": 1,
+      "message": "should be versioned \u003c 0.14.2 (latest version seemed to be 0.14.1)\nMissing Provides: python-tempest-lib\nI\u0027m still wavering about how to version or not this Provides",
+      "revId": "7ed41d43b77394afc7e00843de9c859c34445e61",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
