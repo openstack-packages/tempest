@@ -34,6 +34,24 @@
       "revId": "7ed41d43b77394afc7e00843de9c859c34445e61",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3a6ff13c_7849e98a",
+        "filename": "openstack-tempest.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1002601
+      },
+      "writtenOn": "2016-03-10T21:05:11Z",
+      "side": 1,
+      "message": "ack",
+      "parentUuid": "3a6ff13c_d8801d8e",
+      "revId": "7ed41d43b77394afc7e00843de9c859c34445e61",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
