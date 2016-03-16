@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a6ff13c_b3444d75",
+        "filename": "openstack-tempest.spec",
+        "patchSetId": 6
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2016-03-16T16:07:18Z",
+      "side": 1,
+      "message": "python-os-testr ?",
+      "revId": "e740c4571a6265eb304bebe00d693c82c039a862",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
